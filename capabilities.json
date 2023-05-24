@@ -1,0 +1,79 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "Value in %",
+            "name": "value",
+            "kind": "Measure"
+        }
+    ],
+    "objects": {
+        "colorSettings": {
+            "properties": {
+                "fontColor": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "fontFamily": {
+                    "type": {
+                        "formatting": {
+                            "fontFamily": true
+                        }
+                    }
+                },
+                "gradiantColorFirst": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "gradiantColorSecond": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "arrowColor": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                }
+
+            }
+        },
+        "animationSettings": {
+            "properties": {
+                "duration": {
+                    "type": {
+                        "numeric": true
+                    }
+                }
+            }
+        }
+    },
+    "dataViewMappings": [
+        {
+            "single": {
+                "role": "value"
+            },
+            "conditions": [
+                { "value": { "max": 1 }}
+            ]
+        }
+    ],
+    "privileges": []
+}

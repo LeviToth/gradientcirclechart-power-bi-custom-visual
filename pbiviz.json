@@ -1,0 +1,25 @@
+{
+    "visual": {
+        "name": "gradient-circle-chart",
+        "displayName": "Gradient Circle Chart",
+        "guid": "GradientCircleChart0538D0AFFEC747F383D6C2803A2963F0",
+        "visualClassName": "Visual",
+        "version": "1.0.0",
+        "description": "The circle progress chart was designed to show a single percentage value. It features a vibrant gradient color scheme and customizable animation.",
+        "supportUrl": "git_url_link",
+        "gitHubUrl": "git_url_link"
+    },
+    "apiVersion": "5.3.0",
+    "author": {
+        "name": "Levente TOTH",
+        "email": "levente.toth@leventeanalytics.com"
+    },
+    "assets": {
+        "icon": "assets/icon.png"
+    },
+    "externalJS": [],
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": []
+}

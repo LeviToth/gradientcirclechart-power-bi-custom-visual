@@ -1,0 +1,29 @@
+{
+  "name": "gradient-circle-chart",
+  "description": "The circle progress chart was designed to show a single percentage value. It features a vibrant gradient color scheme and customizable animation.",
+  "repository": {
+    "type": "public",
+    "url": "git_url_link"
+  },
+  "license": "MIT",
+  "scripts": {
+    "pbiviz": "pbiviz",
+    "start": "pbiviz start",
+    "package": "pbiviz package",
+    "lint": "tslint -c tslint.json -p tsconfig.json"
+  },
+  "dependencies": {
+    "@types/d3": "5.7.2",
+    "d3": "^7.8.4",
+    "powerbi-visuals-api": "~5.3.0",
+    "powerbi-visuals-tools": "^4.3.0",
+    "powerbi-visuals-utils-formattingmodel": "5.0.0",
+    "powerbi-visuals-utils-formattingutils": "^6.0.1"
+  },
+  "devDependencies": {
+    "ts-loader": "6.1.0",
+    "tslint": "^5.18.0",
+    "tslint-microsoft-contrib": "^6.2.0",
+    "typescript": "3.6.3"
+  }
+}
